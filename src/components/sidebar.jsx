@@ -28,7 +28,7 @@ export default class Sidebar extends Component {
               <ul style={{    display: 'flex',justifyContent: 'space-evenly'}}>
                 <li><a href="https://www.linkedin.com/in/amit-singh-bhadoria-3b67278b" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/AmitSinghBhadoria" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
-                <li><a href="https://medium.com/@dhruv.barochia34788" target="_blank" rel="noopener noreferrer"><i className="icon-clip"></i></a></li>
+                <li><a href="https://amitsinghbhadoria.github.io/react-prtfolio/cv/amit_bhadoria_JSDeveloper_1Y.pdf" target="_blank" rel="noopener noreferrer"><i className="icon-clip"></i></a></li>
               </ul>
             </nav>
             <div className="colorlib-footer">
