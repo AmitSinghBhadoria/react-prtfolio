@@ -25,8 +25,8 @@ export default class Services extends Component {
                 <div className="desc">
                   <h3>Front End Development </h3>
                   <p>
-                    Experience building websites and chrome extentions
-                    using JavaScript,Angular, React, HTML, CSS.
+                    Experience building websites and chrome extentions using
+                    JavaScript,Angular, React, HTML, CSS.
                   </p>
                 </div>
               </div>
@@ -39,7 +39,8 @@ export default class Services extends Component {
                 <div className="desc">
                   <h3>Back End Development</h3>
                   <p>
-                    Experience in Design and implementation of REST API for critical online service using NodeJs with Express.
+                    Experience in Design and implementation of REST API for
+                    critical online service using NodeJs with Express.
                   </p>
                 </div>
               </div>
@@ -52,14 +53,14 @@ export default class Services extends Component {
                 <div className="desc">
                   <h3>Mobile Development</h3>
                   <p>
-                  Experience building Mobile Application
-                    using React Native, have done 1 React native app.
+                    Experience building Mobile Application using React Native,
+                    have done 1 React native app.
                   </p>
                 </div>
               </div>
             </div>
-            
-
+          </div>
+          <div className="row row-pt-md">
             <div className="col-md-4 text-center animate-box">
               <div className="services color-2">
                 <span className="icon">
@@ -67,7 +68,10 @@ export default class Services extends Component {
                 </span>
                 <div className="desc">
                   <h3>Blockchain</h3>
-                  <p>Experience with etherereun blockchain, have done 2 projects on ethereum smart contract development</p>
+                  <p>
+                    Experience with etherereun blockchain, have done 2 projects
+                    on ethereum smart contract development
+                  </p>
                 </div>
               </div>
             </div>
@@ -78,7 +82,10 @@ export default class Services extends Component {
                 </span>
                 <div className="desc">
                   <h3>Databases</h3>
-                  <p>Experience with Sturctured as well as Unstructured Databases like PostgresSQL, MySQL, MongoDB</p>
+                  <p>
+                    Experience with Sturctured as well as Unstructured Databases
+                    like PostgresSQL, MySQL, MongoDB
+                  </p>
                 </div>
               </div>
             </div>
@@ -89,7 +96,10 @@ export default class Services extends Component {
                 </span>
                 <div className="desc">
                   <h3>Code Versioning</h3>
-                  <p>Proficient understanding of Git and Web-based repository hosting service, such as Github, Bitbucket </p>
+                  <p>
+                    Proficient understanding of Git and Web-based repository
+                    hosting service, such as Github, Bitbucket{" "}
+                  </p>
                 </div>
               </div>
             </div>

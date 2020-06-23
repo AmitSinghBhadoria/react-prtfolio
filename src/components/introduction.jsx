@@ -1,10 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class Introduction extends Component {
   render() {
     return (
       <div>
-        <section id="colorlib-hero" className="js-fullheight" data-section="home">
+        <section
+          id="colorlib-hero"
+          className="js-fullheight"
+          data-section="home"
+        >
           <div className="flexslider js-fullheight">
             <ul className="slides">
               {/* <li style={{backgroundImage: 'url()'}}>
@@ -23,7 +27,11 @@ export default class Introduction extends Component {
                   </div>
                 </div>
               </li> */}
-              <li style={{backgroundImage: 'url(images/IMG_91.png)'}}>
+              <li
+                style={{
+                  backgroundImage: "url(images/IMG_91.png)",
+                }}
+              >
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -31,8 +39,20 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>Javascript Developer</h1>
-                          <h4>I like to code things from scratch,<br></br> and enjoy bringing ideas to life in the browser.</h4>
-                          <p><a className="btn btn-primary btn-learn" href="https://github.com/AmitSinghBhadoria" target="_blank" rel="noopener noreferrer">View Projects <i className="icon-briefcase3" /></a></p>
+                          <h4>
+                            I like to code things from scratch,<br></br> and
+                            enjoy bringing ideas to life in the browser.
+                          </h4>
+                          <p>
+                            <a
+                              className="btn btn-primary btn-learn"
+                              href="https://github.com/AmitSinghBhadoria"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              View Projects <i className="icon-briefcase3" />
+                            </a>
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -58,6 +78,6 @@ export default class Introduction extends Component {
           </div>
         </section>
       </div>
-    )
+    );
   }
 }

@@ -1,33 +1,53 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class Contact extends Component {
   render() {
     return (
-            <div> 
-                <div id="colorlib-counter" className="colorlib-counters" style={{backgroundImage: "url(images/IMG_93.jpg)", marginBottom:"unset"}} data-stellar-background-ratio="0.5">
-				<div className="overlay"></div>
-				<div className="colorlib-narrow-content">
-					<div className="row">
-						<div className="col-md-3 text-center animate-box">
-							<span className="colorlib-counter js-counter" data-from="0" data-to="2" data-speed="1000" data-refresh-interval="50"></span>
-							<span className="colorlib-counter-label">Years</span>
-						</div>
-						<div className="col-md-3 text-center animate-box">
-							<span className="colorlib-counter js-counter" data-from="0" data-to="6" data-speed="1000" data-refresh-interval="50"></span>
-							<span className="colorlib-counter-label">Projects</span>
-						</div>
-						{/* <div className="col-md-3 text-center animate-box">
+      <div>
+        <div
+          id="colorlib-counter"
+          className="colorlib-counters"
+          style={{
+            backgroundImage: "url(images/IMG_93.jpg)",
+            marginBottom: "unset",
+          }}
+          data-stellar-background-ratio="0.5"
+        >
+          <div className="overlay"></div>
+          <div className="colorlib-narrow-content">
+            <div className="row">
+              <div className="col-md-3 text-center animate-box">
+                <span
+                  className="colorlib-counter js-counter"
+                  data-from="0"
+                  data-to="2"
+                  data-speed="1000"
+                  data-refresh-interval="50"
+                ></span>
+                <span className="colorlib-counter-label">Years</span>
+              </div>
+              <div className="col-md-3 text-center animate-box">
+                <span
+                  className="colorlib-counter js-counter"
+                  data-from="0"
+                  data-to="6"
+                  data-speed="1000"
+                  data-refresh-interval="50"
+                ></span>
+                <span className="colorlib-counter-label">Projects</span>
+              </div>
+              {/* <div className="col-md-3 text-center animate-box">
 							<span className="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
 							<span className="colorlib-counter-label">Clients</span>
 						</div> */}
-						{/* <div className="col-md-3 text-center animate-box">
+              {/* <div className="col-md-3 text-center animate-box">
 							<span className="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
 							<span className="colorlib-counter-label">Partners</span>
 						</div> */}
-					</div>
-				</div>
-			</div>
-{/* <section className="colorlib-contact" data-section="contact">
+            </div>
+          </div>
+        </div>
+        {/* <section className="colorlib-contact" data-section="contact">
 				<div className="colorlib-narrow-content">
 					<div className="row">
 						<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -67,7 +87,7 @@ export default class Contact extends Component {
 					</div>
 				</div>
 			</section> */}
-            </div>
-        )
-    }
+      </div>
+    );
+  }
 }
